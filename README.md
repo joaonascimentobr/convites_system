@@ -2,7 +2,7 @@ Visao geral do repositorio
 
 Monorepo com PNPM. O arquivo `pnpm-workspace.yaml` agrupa os apps do projeto em `apps/*`.
 
-O `package.json` raiz contem scripts para subir backend e frontend em paralelo com `pnpm run dev`.
+O `package.json` raiz contem scripts para subir o backend e, depois que `/health` responder, iniciar o frontend com `pnpm run dev`.
 
 Backend (`apps/backend`)
 
@@ -27,6 +27,8 @@ O roteador define as rotas de login, cadastro, dashboard e pedidos, protegendo a
 `AuthService` abstrai as chamadas HTTP de login e cadastro.
 
 Pontos importantes para comecar
+
+Inicializacao local: use `pnpm run dev`. O launcher aguarda o backend em `http://127.0.0.1:3000/health` antes de iniciar o Vite em `http://localhost:5173`.
 
 Arquitetura do backend: explore `apps/backend/src` e use o `AppModule` como ponto de entrada para entender as dependencias.
 

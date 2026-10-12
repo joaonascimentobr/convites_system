@@ -5,7 +5,7 @@ Este projeto possui um **Devcontainer** para padronizar o ambiente de desenvolvi
 O ambiente usa:
 
 - Linux via container
-- Node.js 20
+- Node.js 24 LTS
 - PNPM 9.12.2
 - SQLite para desenvolvimento local
 - Prisma Client gerado automaticamente
@@ -78,7 +78,7 @@ Para iniciar o projeto completo:
 pnpm run dev
 ```
 
-Esse comando sobe backend e frontend em paralelo.
+Esse comando inicia o backend, aguarda o health check responder e só então inicia o frontend.
 
 Portas esperadas:
 

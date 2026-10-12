@@ -81,25 +81,25 @@ import supermanMusic from '@/assets/music/Super Heróis/Superman/Superman Theme 
 import thorMusic from '@/assets/music/Super Heróis/Thor Ragnarok/Thor  Ragnarok , Led Zeppelin - Immigrant Song, 4K IMAX & HQ Sound - 예나오디오 (youtube).mp3';
 import avengersMusic from '@/assets/music/Super Heróis/Vingadores/Os Vingadores - Música Tema - B-Studios Nerd (youtube).mp3';
 
-import spiderSound from '@/assets/sound/HomemAranha/Firefly_audio_Spider-Man_web-shooting_effect_variation3.wav';
-import aranhaversoSound from '@/assets/sound/AranhaVerso/Firefly_audio_Spider-Man_web-shooting_effect_variation3.wav';
-import batmanSound from '@/assets/sound/Batman/Firefly_audio_Create_a_Batman-inspired_sound._variation1 (1).wav';
-import captainSound from '@/assets/sound/CapitaoAmerica/Firefly_audio_Create_a_US-style_march_sound_featuring_a_two-note_variation1 (1).wav';
-import flashSound from '@/assets/sound/Flash/Firefly_audio_Generate_a_speed-of-light_effect._variation2.wav';
-import guardiansSound from '@/assets/sound/GuardioesDasGalaxias/Firefly_audio_Create_a_galaxy_effect._variation1.wav';
-import ironManSound from '@/assets/sound/Homem de Ferro/Firefly_audio_Create_a_high-tech_effect._variation3.wav';
-import hulkSound from '@/assets/sound/Hulk/Firefly_audio_Create_a_stone-breaking_effect._variation3.wav';
-import teenTitansSound from '@/assets/sound/Jovens Titãns/Firefly_audio_Create_a_camera-opening_effect._variation3.wav';
-import ladybugSound from '@/assets/sound/LadyBug/Firefly_audio_Make_a_yo-yo_sound._variation3.wav';
-import justiceLeagueSound from '@/assets/sound/Liga da Justiça/Firefly_audio_Create_a_spatial_sound_effect._variation3.wav';
-import milesSound from '@/assets/sound/Miles Morales/Firefly_audio_Create_a_1-second_special_effect_featuring_a_high-_variation3.wav';
-import wonderWomanSound from '@/assets/sound/Mulher Maravilha/Firefly_audio_Create_a_special_effect_themed_around_the_Lasso_of_variation4.wav';
-import incrediblesSound from '@/assets/sound/OsIncríveis/Firefly_audio_Create_a_special_effect_with_a_start_and_end_point_variation4.wav';
-import blackPantherSound from '@/assets/sound/Pantera Negra/Firefly_audio_Create_a_special_effect_with_a_claw-on-iron_theme__variation3.wav';
-import pjMasksSound from '@/assets/sound/PjMask/Firefly_audio_Create_a_special_effect_that_starts_and_ends_at_th_variation4.wav';
-import supermanSound from '@/assets/sound/Superman/Firefly_audio_Create_a_special_effect_with_a_start_and_end_value_variation1.wav';
-import thorSound from '@/assets/sound/Thor/Firefly_audio_Create_a_thunder-themed_special_effect_that_starts_variation2.wav';
-import avengersSound from '@/assets/sound/Vingadores/Firefly_audio_Create_an_Avengers-themed_special_effect_that_star_variation4.wav';
+import spiderSound from '@/assets/sound/SuperHeróis/HomemAranha/Firefly_audio_Spider-Man_web-shooting_effect_variation3.wav';
+import aranhaversoSound from '@/assets/sound/SuperHeróis/AranhaVerso/Firefly_audio_Spider-Man_web-shooting_effect_variation3.wav';
+import batmanSound from '@/assets/sound/SuperHeróis/Batman/Firefly_audio_Create_a_Batman-inspired_sound._variation1 (1).wav';
+import captainSound from '@/assets/sound/SuperHeróis/CapitaoAmerica/Firefly_audio_Create_a_US-style_march_sound_featuring_a_two-note_variation1 (1).wav';
+import flashSound from '@/assets/sound/SuperHeróis/Flash/Firefly_audio_Generate_a_speed-of-light_effect._variation2.wav';
+import guardiansSound from '@/assets/sound/SuperHeróis/GuardioesDasGalaxias/Firefly_audio_Create_a_galaxy_effect._variation1.wav';
+import ironManSound from '@/assets/sound/SuperHeróis/Homem de Ferro/Firefly_audio_Create_a_high-tech_effect._variation3.wav';
+import hulkSound from '@/assets/sound/SuperHeróis/Hulk/Firefly_audio_Create_a_stone-breaking_effect._variation3.wav';
+import teenTitansSound from '@/assets/sound/SuperHeróis/Jovens Titãns/Firefly_audio_Create_a_camera-opening_effect._variation3.wav';
+import ladybugSound from '@/assets/sound/SuperHeróis/LadyBug/Firefly_audio_Make_a_yo-yo_sound._variation3.wav';
+import justiceLeagueSound from '@/assets/sound/SuperHeróis/Liga da Justiça/Firefly_audio_Create_a_spatial_sound_effect._variation3.wav';
+import milesSound from '@/assets/sound/SuperHeróis/Miles Morales/Firefly_audio_Create_a_1-second_special_effect_featuring_a_high-_variation3.wav';
+import wonderWomanSound from '@/assets/sound/SuperHeróis/Mulher Maravilha/Firefly_audio_Create_a_special_effect_themed_around_the_Lasso_of_variation4.wav';
+import incrediblesSound from '@/assets/sound/SuperHeróis/OsIncríveis/Firefly_audio_Create_a_special_effect_with_a_start_and_end_point_variation4.wav';
+import blackPantherSound from '@/assets/sound/SuperHeróis/Pantera Negra/Firefly_audio_Create_a_special_effect_with_a_claw-on-iron_theme__variation3.wav';
+import pjMasksSound from '@/assets/sound/SuperHeróis/PjMask/Firefly_audio_Create_a_special_effect_that_starts_and_ends_at_th_variation4.wav';
+import supermanSound from '@/assets/sound/SuperHeróis/Superman/Firefly_audio_Create_a_special_effect_with_a_start_and_end_value_variation1.wav';
+import thorSound from '@/assets/sound/SuperHeróis/Thor/Firefly_audio_Create_a_thunder-themed_special_effect_that_starts_variation2.wav';
+import avengersSound from '@/assets/sound/SuperHeróis/Vingadores/Firefly_audio_Create_an_Avengers-themed_special_effect_that_star_variation4.wav';
 
 export type SuperheroTheme = {
   slug: SuperheroThemeSlug;
